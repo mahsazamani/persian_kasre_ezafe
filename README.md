@@ -13,5 +13,5 @@ Sending Request:
 `curl -X POST http://127.0.0.1:5000/predict -H "Content-Type: application/json" -d '{"text": "من امشب زندگی رو خیلی زیبا و جنجالی میبینم. چون فوتبال بارسلونا قراره پخش بشه"}'
 `
 
-![IMAGE_DESCRIPTION](/home/zamani/Pictures/Screenshots/Screenshot from 2024-10-11 19-29-10.png)
+![IMAGE_DESCRIPTION](images/postman_setting.png)
 
