@@ -2,7 +2,13 @@
 
 ## Dataset
 
+Downloading Twitter Dataset:
 
+`https://iasbs.ac.ir/~ansari/lscp/`
+
+Preprocessing and labeling data with [POS Hazm](https://drive.google.com/file/d/1Q3JK4NVUC2t5QT63aDiVrCRBV225E_B3/edit):
+
+`https://github.com/mahsazamani/persian_kasre_ezafe/blob/main/src/make_dataset.py`
 
 ## Train
 
