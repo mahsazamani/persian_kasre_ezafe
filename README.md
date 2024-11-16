@@ -10,8 +10,8 @@ Run the the image after building to run the app.py:
 
 Sending Request:
 
-`curl -X POST http://127.0.0.1:5000/predict -H "Content-Type: application/json" -d '{"text": "من امشب زندگی رو خیلی زیبا و جنجالی میبینم. چون فوتبال بارسلونا قراره پخش بشه"}'
+- with curl: `curl -X POST http://127.0.0.1:5000/predict -H "Content-Type: application/json" -d '{"text": "من امشب زندگی رو خیلی زیبا و جنجالی میبینم. چون فوتبال بارسلونا قراره پخش بشه"}'
 `
-
+- with postman:
 ![IMAGE_DESCRIPTION](images/postman_setting.png)
 
