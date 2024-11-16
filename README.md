@@ -1,5 +1,22 @@
 # persian_kasre_ezafe
 
+## Dataset
+
+
+
+## Train
+
+1. Train bert on 50000 raw preprocessed data which has labeled by Pos tagger Hazm library (inaccurate labels)
+2. Fine-tune the trained model of step1 on 1000 clean data wich has lebeled by human (accurate)
+
+`https://github.com/mahsazamani/persian_kasre_ezafe/blob/main/train_codes/bert_train.ipynb`
+
+## Test
+
+`https://github.com/mahsazamani/persian_kasre_ezafe/blob/main/test.py`
+
+## Build Image and Send request:
+
 Building image of the project from the given Dockerfile:
 
 `sudo docker build -t ImageName:Tag .`
